@@ -123,7 +123,7 @@ CREATE TABLE `police` (
 --
 
 INSERT INTO `police` (`p_name`, `p_id`, `p_email`, `spec`, `location`, `p_pass`) VALUES
-('Bhavish', 'bhavish@bangalore', 'likhitheshwaraiah@gmail.com', 'all', 'bangalore', '$2y$10$Lp1MlruTt42Xu076BpOUnOxr652UibELrlxPy6JFRblDgm4BwZGAi'),
+('Bhavish', 'bhavish@bangalore', 'example@gmail.com', 'all', 'bangalore', '$2y$10$Lp1MlruTt42Xu076BpOUnOxr652UibELrlxPy6JFRblDgm4BwZGAi'),
 ('Jagadesh', 'jagadesh@tiptur', '', 'All', 'Tiptur', '$2y$10$Zbbt808B/poT.HKKlBYSDuTfI0SCvsTs4moOHpREi9kjQMrT/KZpa'),
 ('Manish', 'manish@tumkur', '', 'All', 'Tumkur', '$2y$10$B3TP7C.NWS3AmUtdQiUFKelgay2ve122.CJnfTIIW9r3IcHdMEN6a'),
 ('Sanjay', 'sanjay@nelamangala', '', 'All', 'Nelamangala', '$2y$10$xhqN7w9daJUIKvBzzT554elcfy166Sd4RkrXB0PwI0fOE4gg1Gz9e');
@@ -179,9 +179,9 @@ CREATE TABLE `user` (
 --
 
 INSERT INTO `user` (`u_id`, `u_name`, `u_pass`, `u_addr`, `a_no`, `gen`, `mob`) VALUES
-('girishmc448@gmail.com', 'Girish', '$2y$10$ypBRoaZkorDk6iR0VsUvgefG2vDBOvNmsxz3VgKFHBEKYIijMVYUu', 'Tumkur', '123456789013', 'Male', '8431270735'),
-('likhitheshwaraiah@gmail.com', 'Likhith H E', '$2y$10$ypBRoaZkorDk6iR0VsUvgefG2vDBOvNmsxz3VgKFHBEKYIijMVYUu', 'Honnenahalli Nelamangala (tq) banglore rural dist', '312032476907', 'Male', '7975058029'),
-('mahadevaiahks02@gmail.com', 'Mahadevaiah k s', '$2y$10$ypBRoaZkorDk6iR0VsUvgefG2vDBOvNmsxz3VgKFHBEKYIijMVYUu', 'Tumkur', '633410729161', 'Male', '7411417950');
+('girish@gmail.com', 'Girish', '$2y$10$ypBRoaZkorDk6iR0VsUvgefG2vDBOvNmsxz3VgKFHBEKYIijMVYUu', 'Tumkur', '123456789013', 'Male', '0987654321'),
+('likhith@gmail.com', 'Likhith H E', '$2y$10$ypBRoaZkorDk6iR0VsUvgefG2vDBOvNmsxz3VgKFHBEKYIijMVYUu', 'Banglore', '123456789012', 'Male', '0192837465'),
+('mahadevaiah@gmail.com', 'Mahadevaiah k s', '$2y$10$ypBRoaZkorDk6iR0VsUvgefG2vDBOvNmsxz3VgKFHBEKYIijMVYUu', 'Mysore', '098765432109', 'Male', '1234567890');
 
 --
 -- Indexes for dumped tables
